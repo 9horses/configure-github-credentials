@@ -1,0 +1,5 @@
+name: 'configure-github-credentials'
+description: 'Configure GitHub credentials to access private repos using AuthzBot GitHub App'
+runs:
+  using: 'node16'
+  main: 'dist/index.js' 

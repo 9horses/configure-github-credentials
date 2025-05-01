@@ -1,0 +1,18 @@
+{
+  "name": "@authzbot/configure-github-credentials",
+  "version": "1.0.0",
+  "description": "GitHub Action to configure GitHub credentials using AuthzBot GitHub App",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
+  }
+} 
